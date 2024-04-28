@@ -88,6 +88,7 @@ module "ec2_instance" {
                 apt install -y python3-pip git
                 pip3 install fastapi uvicorn
                 git clone https://github.com/qasim9641/fastapi-app.git /home/ubuntu/fastapi-app
+                cd /home/ubuntu/fastapi-app
                 nohup uvicorn app:app --host 0.0.0.0 --port 80 &
                 EOF
 
