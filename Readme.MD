@@ -26,6 +26,7 @@ image_tag         = "latest"
 container_name    = "fastapi-container"
 key_name          = "<key_name>"
 
+Also update the organization name and workspace name in Backend.tf
 
 Replace the placeholders with actual values.
 
