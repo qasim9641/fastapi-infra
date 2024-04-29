@@ -1,6 +1,0 @@
-ecr_registry_url = "854806759672.dkr.ecr.us-east-1.amazonaws.com"
-repository_name = "poc"
-image_tag = "latest"
-container_name = "fastapi-container"
-key_name = "demo"
-region = "us-east-1"
