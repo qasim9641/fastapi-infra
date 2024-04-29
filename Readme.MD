@@ -47,6 +47,6 @@ terraform apply
 ## Post Deployment
 After the successfully deployment you will see the IP in the output section. Next open your browser and use the app
 
-<public-IP>//fibonacci/<number>
+"<public-IP>"//fibonacci/"<number>"
 
 
